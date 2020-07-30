@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 11 May, 2020, 3:48:57 PM
+    Author     : FORAM JHALA
+*/
+
+body{
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding-top: 100px;
+}
+.row_style{
+        margin-top: 10px;
+}
+
+.row_style1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+ .footer{
+        background-color: #000;
+        color: #fff;
+        margin: 14px 0 0 0;
+        text-align: center;
+        padding-top: 6px;
+        font-size: 20px;
+ }
+
+ footer.copyright{
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+ }
+
+ .red{
+     padding-right: 20px;
+ }
+ .collapse{
+ font-size:14px;
+ height: 150px;
+ padding: 15px 50px;
+ font-size: 18px;
+ font-weight: bold
+ }
+ .website{
+       width: 100%;
+        margin: auto;
+ }
+ .navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:#000;
+  color:#fff;
+  border-color: #080808;
+  min-height: 50px;
+  border: 1px solid transparent;
+  padding-top: 3px;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+.navbar-header{
+ height: 80px;
+ padding: 15px;
+ padding-left: 50px;
+ font-size: 20px;
+ font-weight: bold;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+ .content{
+        min-height: 600px;
+}
+ .banner-image{
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #f8f8f8;
+        background: url("pic/intro-bg_1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+.inner-banner-image{
+        padding-top: 12%;
+        width:80%;
+        margin:auto;
+}
+.banner-content{
+     position: relative;
+     padding-top: 6%;
+     padding-bottom: 12%;
+     overflow:hidden;
+     margin-bottom: 12%;
+     background-color: rgba(0, 0, 0, 0.7);
+     max-width: 660px;
+}
+
+.items{
+     width:30%;
+     display: block;
+     padding-top: 50px;
+     margin-bottom: 20px;
+     line-height: 1.42857143;
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     float:left;
+     margin-left:1%;
+}
+
+@media only screen and (max-width:1020px){
+
+  .login{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 767px){
+
+  .login{
+    margin: 0px 40px 40px 35px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:424px){
+
+  .login{
+    margin: 0px 40px 40px 30px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:374px){
+
+  .login{
+    margin: 0px 40px 40px 25px;
+    padding: 0;
+  }
+}
